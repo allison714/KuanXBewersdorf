@@ -19,8 +19,8 @@ def adjust_brightness_contrast(image, min_intensity, max_intensity):
     return image_8bit
 
 # Load the 16-bit hyperstack
-input_path = 'path/to/your/16bit_hyperstack.tif'
-output_path = 'path/to/save/adjusted_hyperstack.tif'
+input_path = r'D:\Dragonfly\16-bit_TIFF_Data\ms5_bottom_c_.tif'
+output_path = r'D:\Dragonfly\Test\ms5_bottom_c_y.tif'
 hyperstack = tifffile.imread(input_path)
 
 # Determine the middle slice
