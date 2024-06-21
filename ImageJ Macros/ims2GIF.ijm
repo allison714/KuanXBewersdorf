@@ -41,6 +41,7 @@ for (i = 0; i < list.length; i++) {
     }
     // Construct the save path for this channel
     // saveAs("Gif", "D:/ims2GIF/test22b.gif");
+    run("8-bit");
     savePath2 = savePath + fileName + ".gif";
     print(savePath2);
 
