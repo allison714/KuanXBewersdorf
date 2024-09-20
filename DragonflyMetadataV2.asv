@@ -71,7 +71,7 @@ for k = 1:length(fileList)
         value = tokens{1}{2}; % The rest of the string after the name
         protocol = string([name, value]);
     else
-        protocol = "";
+        protocol = "NA";
     end
     
     % Zslices
@@ -122,9 +122,12 @@ for k = 1:length(fileList)
 end
 
 % Create the final table
-T = table(dateArray', fileNameArray', objectiveArray', ZslicesArray', exposureCh1Array', exposureCh2Array', binningArray', ...
+T = table(dateArray', fileNameArray', protocol', objectiveArray', ...
+    ZslicesArray', exposureCh1Array', exposureCh2Array', binningArray', ...
     sensorWidthArray', sensorHeightArray', fileSizeGBArray', ...
-    'VariableNames', {'Date', 'FileName', 'ObjectiveInfo', 'ZStepSize', 'ExposureCh1', 'ExposureCh2', 'Binning', 'SensorWidth', 'SensorHeight', 'FileSizeGB'});
+    'VariableNames', {'Date', 'File Name', 'Protocol', 'Objective Info', ...
+    'Z Slices', 'Ch1 Exposure', 'Ch2 Exposure', 'Binning', ...
+    'Sensor Width', 'Sensor Height', 'FileSizeGB'});
 
 % Display the table
 disp(T);
