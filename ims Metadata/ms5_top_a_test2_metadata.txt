@@ -1,0 +1,1133 @@
+﻿DateAndTime=2024-05-20 09:12:12
+NumberOfTimePoints=1
+NumberOfZPoints=3
+NumberOfChannels=2
+Width=682
+Height=682
+FusionVersion=2.4.0.14
+Protocol Name=ZScanProtocolWizard
+[Protocol Specification]
+	[TimeSeriesProtocolSpecification]
+		IsOuterRepeat=False
+		RepeatCount=1
+		Duration=47.9152 ms
+		IsFixedDuration=False
+		ActualDuration=47.9152 ms
+		Interval=0 ms
+		ActualInterval=47915.2 µs
+		RepeatsPerSecond=0
+		RepeatsMode=Repeats
+		IntervalMode=Interval
+		IsValid=True
+		IsActive=True
+	[TimeSeriesProtocolSpecification]
+		IsOuterRepeat=True
+		RepeatCount=1
+		Duration=47.9152 ms
+		IsFixedDuration=False
+		ActualDuration=47.9152 ms
+		Interval=0 ms
+		ActualInterval=47915.2 µs
+		RepeatsPerSecond=0
+		RepeatsMode=Repeats
+		IntervalMode=Interval
+		IsValid=True
+		IsActive=False
+		Name=TimeSeriesOuterRepeat
+	[TimeOptionsProtocolSpecification]
+		NumberOfNestedRepeats=0
+		IsValid=True
+	[ZScanProtocolSpecification]
+		Scale=Full
+		BoundedZMinimum=0
+		BoundedZMaximum=10000
+		IsNegativeScan=False
+		ZScanProtocolOrder=RunZScansAtEachChannel
+		UseRefZForScans=True
+		ActualStartPosition=7158.56
+		ActualEndPosition=7295.52
+		StartPosition=7158.56
+		EndPosition=7295.52
+		CentrePosition=7227.04
+		Size=136.96
+		StepSize=68.48
+		StepCount=3
+		StepSizeMode=StepCountDefinition
+		ScanDefinitionMode=StartEnd
+		IsProtocolElementActive=True
+		IsZScanEnabled=True
+		SaveZSlicesToSingleFile=False
+		LastUserSelectedIsZScanEnabled=False
+		IsValid=True
+	[MontageProtocolSpecification]
+		IsMontageAvailable=True
+		IsViewExpanded=True
+		IsMontageEnabled=True
+		CurrentMontageMode=Edge
+		IsValid=True
+	[EdgeMontageProtocolSpecification]
+		Overlap=10
+		IsValid=True
+		[MultiFieldDefinitions]
+			[FieldDefinition]
+				X=-35.165100
+				Y=19.559400
+				FieldName=1
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.977300
+				Y=19.563000
+				FieldName=2
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.972800
+				Y=19.748500
+				FieldName=3
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.978300
+				Y=19.934700
+				FieldName=4
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.975200
+				Y=20.115500
+				FieldName=5
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.960700
+				Y=20.296000
+				FieldName=6
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.972100
+				Y=20.484700
+				FieldName=7
+				IsDefinitionValid=True
+				IsValid=True
+			[FieldDefinition]
+				X=-34.968000
+				Y=20.674000
+				FieldName=8
+				IsDefinitionValid=True
+				IsValid=True
+		Rows=8
+		Columns=3
+	[FieldMontageProtocolSpecification]
+		Overlap=10
+		IsValid=True
+		Rows=10
+		Columns=10
+		CurrentPosition=Centre
+	[ChannelProtocolSpecification]
+		[ChannelGroups]
+			[ChannelGroup]
+				[Channel]
+					Wavelength=698 nm
+					AutoGenerateColour=False
+					AcquisitionDeviceAlias=Sona 01
+					ImagingMode={Name=CF40}
+					Name=Joerg 60x 638new_CF40_Sona01
+					Description=60x 1.2NA water objective
+					IsActive=True
+					IsReadOnly=False
+					[FeatureValueList]
+						{DisplayName=Rotation, Value=0˚}
+						{DisplayName=Rotation, Value=0˚}
+						{DisplayName=Flip Vertical, Value=False}
+						{DisplayName=Flip Vertical, Value=False}
+						{DisplayName=Flip Horizontal, Value=False}
+						{DisplayName=Flip Horizontal, Value=True}
+						{DisplayName=Exposure Time, Value=35 ms}
+						{DisplayName=Exposure Time, Value=25 ms}
+						{DisplayName=Scale Exposure with Binning, Value=True}
+						{DisplayName=Scale Exposure with Binning, Value=True}
+						{DisplayName=Binning, Value=3x3}
+						{DisplayName=Binning, Value=3x3}
+						{DisplayName=AOI Width, Value=2048}
+						{DisplayName=AOI Width, Value=2048}
+						{DisplayName=AOI Height, Value=2046}
+						{DisplayName=AOI Height, Value=2046}
+						{DisplayName=Data Width, Value=682}
+						{DisplayName=Data Width, Value=682}
+						{DisplayName=Data Height, Value=682}
+						{DisplayName=Data Height, Value=682}
+						{DisplayName=AOI Left, Value=1}
+						{DisplayName=AOI Left, Value=1}
+						{DisplayName=AOI Bottom, Value=1}
+						{DisplayName=AOI Bottom, Value=1}
+						{DisplayName=Confocal Mode, Value=0}
+						{DisplayName=Overlap, Value=False}
+						{DisplayName=Overlap, Value=False}
+						{DisplayName=Overlap, Value=False}
+						{DisplayName=Overlap, Value=False}
+						{DisplayName=Bit Depth, Value=16-bit (high dynamic range)}
+						{DisplayName=Bit Depth, Value=12-bit (low noise)}
+						{DisplayName=Output Port -  Unit 1, Value=1}
+						{DisplayName=Output Port, Value=1}
+						{DisplayName=Selected Laser Index, Value=-1}
+						{DisplayName=Low Power Mode, Value=False}
+						{DisplayName=Low Power Level, Value=×0.01}
+						{DisplayName=Laser Intensity 2, Value=2}
+						{DisplayName=Laser Intensity 3, Value=2}
+						{DisplayName=Laser Intensity 1, Value=2}
+						{DisplayName=Laser Intensity 4, Value=10}
+						{DisplayName=Laser Intensity 5, Value=2}
+						{DisplayName=Laser 2, Value=False}
+						{DisplayName=Laser 3, Value=False}
+						{DisplayName=Laser 1, Value=False}
+						{DisplayName=Laser 4, Value=True}
+						{DisplayName=Laser 5, Value=False}
+						{DisplayName=Brightfield Trigger, Value=False}
+						{DisplayName=Brightfield Trigger Mode, Value=0}
+						{DisplayName=Frame Event, Value=False}
+						{DisplayName=MicroPoint Trigger Line, Value=False}
+						{DisplayName=Spare Trigger Line, Value=False}
+						{DisplayName=Analogue Voltage, Value=0}
+						{DisplayName=Objective Escaped, Value=False}
+						{DisplayName=Port, Value=3}
+						{DisplayName=Select Objective Feature, Value=1 - 60x/1.2 - contains 4 items.}
+						{DisplayName=Drift Stabilisation Active, Value=False}
+						{DisplayName=Drift Stabilisation Status, Value=0}
+						{DisplayName=Drift Stabilisation Offset, Value=6834}
+						{DisplayName=Reference Z Resolution, Value=0.01}
+						{DisplayName=Ref Z, Value=7227.04}
+						{DisplayName=TotalConsolidatedOpticalMagnification, Value=60}
+						{DisplayName=ConsolidatedImmersionRefractiveIndex, Value=1.3333}
+						{DisplayName=ConsolidatedImmersionType, Value=Water}
+						{DisplayName=ConsolidatedLensNumericalAperture, Value=1.2}
+						{DisplayName=X, Value=-34.968000}
+						{DisplayName=Y, Value=20.674000}
+						{DisplayName=Velocity XY, Value=0, 0}
+						{DisplayName=Maximum Absolute X Position, Value=497.4784}
+						{DisplayName=Maximum Absolute Y Position, Value=505.8788}
+						{DisplayName=Minimum Absolute X Position, Value=-502.5215}
+						{DisplayName=Minimum Absolute Y Position, Value=-494.1212}
+						{DisplayName=Maximum Bounded X Position, Value=497.4784}
+						{DisplayName=Maximum Bounded Y Position, Value=507.6013}
+						{DisplayName=Minimum Bounded X Position, Value=-498.0501}
+						{DisplayName=Minimum Bounded Y Position, Value=-492.3987}
+						{DisplayName=XY Bounded, Value=False}
+						{DisplayName=IsTopLeftBoundSet, Value=False}
+						{DisplayName=IsBottomRightBoundSet, Value=False}
+						{DisplayName=Wait Until Movement Stopped, Value=True}
+						{DisplayName=Invert Software X Axis, Value=True}
+						{DisplayName=X Resolution, Value=0.01}
+						{DisplayName=Speed Limit X, Value=5.745920}
+						{DisplayName=Invert Software Y Axis, Value=True}
+						{DisplayName=Y Resolution, Value=0.01}
+						{DisplayName=Speed Limit Y, Value=5.745920}
+						{DisplayName=Settling Time, Value=15 ms}
+						{DisplayName=Z, Value=0.0}
+						{DisplayName=Invert Software Z Axis, Value=False}
+						{DisplayName=Z Resolution, Value=0.01}
+						{DisplayName=Speed Limit Z, Value=4958.000000}
+						{DisplayName=Velocity Z, Value=0.000000}
+						{DisplayName=Baud Rate, Value=9600}
+						{DisplayName=2 - 20x/0.75, Value=}
+						{DisplayName=LensNumericalAperture, Value=0.75}
+						{DisplayName=LensMagnification, Value=20}
+						{DisplayName=ImmersionType, Value=Dry}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.0003}
+						{DisplayName=3 - 40x/1.3, Value=}
+						{DisplayName=LensNumericalAperture, Value=1.3}
+						{DisplayName=LensMagnification, Value=40}
+						{DisplayName=ImmersionType, Value=Oil}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+						{DisplayName=4 - 60x/1.4, Value=}
+						{DisplayName=LensNumericalAperture, Value=1.4}
+						{DisplayName=LensMagnification, Value=60}
+						{DisplayName=ImmersionType, Value=Oil}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+						{DisplayName=5 - 60x/1.49, Value=}
+						{DisplayName=LensNumericalAperture, Value=1.49}
+						{DisplayName=LensMagnification, Value=60}
+						{DisplayName=ImmersionType, Value=Oil}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+						{DisplayName=Filter Turret 1, Value=5}
+						{DisplayName=Z Drive Mode, Value=1}
+						{DisplayName=Analogue Control, Value=False}
+						{DisplayName=Magnification Correction, Value=1.0}
+						{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 2 name [Port ↑]> devname [Andor Dragonfly (COM5)]}
+						{DisplayName=Sync Exposure Time, Value=False}
+						{DisplayName=Frame Rate, Value=0}
+						{DisplayName=Pixel Width (µm), Value=6.5}
+						{DisplayName=Pixel Height (µm), Value=6.5}
+						{DisplayName=Sensor Width, Value=2048}
+						{DisplayName=Sensor Height, Value=2046}
+						{DisplayName=Binning X, Value=3}
+						{DisplayName=Binning Y, Value=3}
+						{DisplayName=Frame Averaging, Value=1}
+						{DisplayName=HF Boost, Value=False}
+						{DisplayName=HF Boost Filter Width, Value=1.0}
+						{DisplayName=HF Boost Weighting, Value=0.6}
+						{DisplayName=Readout Time (ms), Value=13.503600000000001 ms}
+						{DisplayName=Detector Temperature, Value=-0.030517578125}
+						{DisplayName=Device Frame Rate, Value=25.9577096993578}
+						{DisplayName=Frame Count, Value=1}
+						{DisplayName=Image Size Bytes, Value=930288}
+						{DisplayName=Sensor Cooling, Value=True}
+						{DisplayName=Spurious Noise Filter, Value=True}
+						{DisplayName=Metadata Enable, Value=True}
+						{DisplayName=Metadata Timestamp, Value=True}
+						{DisplayName=Auxiliary Output Source, Value=FireAll}
+						{DisplayName=Electronic Shuttering, Value=Rolling}
+						{DisplayName=Fan Mode, Value=Low}
+						{DisplayName=Pixel Readout Rate, Value=310MHz}
+						{DisplayName=Temperature Set Point, Value=0.0}
+						{DisplayName=Temperature Status, Value=1}
+						{DisplayName=Cycle Mode, Value=Continuous}
+						{DisplayName=Mapping Minimum Value, Value=90}
+						{DisplayName=Mapping Minimum Range, Value=90}
+						{DisplayName=End Of Exposure Enabled, Value=True}
+						{DisplayName=Advanced Acquisition Mode, Value=False}
+						{DisplayName=Finite Burst Frame Rate, Value=2777.77778}
+						{DisplayName=Acquisition Mode, Value=High Quality}
+						{DisplayName=Camera Model, Value=Sona6}
+						{DisplayName=Is Full Sensor, Value=True}
+						{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+						{DisplayName=Frame Latency, Value=0.0579152 s}
+						{DisplayName=Frame Wait Time, Value=5.038503600000000001 s}
+						{DisplayName=Simulated Global Shutter, Value=False}
+						{DisplayName=1 - 60x/1.2, Value=}
+						{DisplayName=LensNumericalAperture, Value=1.2}
+						{DisplayName=LensMagnification, Value=60}
+						{DisplayName=ImmersionType, Value=Water}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+						{DisplayName=Rolling Shutter Global Clear, Value=True}
+						{DisplayName=Is Sample Holder XY Bounded, Value=False}
+						{DisplayName=Sample Holder Maximum Absolute X Position, Value=497.4784}
+						{DisplayName=Sample Holder Maximum Absolute Y Position, Value=505.8788}
+						{DisplayName=Sample Holder Minimum Absolute X Position, Value=-502.5215}
+						{DisplayName=Sample Holder Minimum Absolute Y Position, Value=-494.1212}
+						{DisplayName=Sample Holder Maximum Bounded X Position, Value=475.1884}
+						{DisplayName=Sample Holder Maximum Bounded Y Position, Value=492.2293}
+						{DisplayName=Sample Holder Minimum Bounded X Position, Value=-479.2167}
+						{DisplayName=Sample Holder Minimum Bounded Y Position, Value=-490.0094}
+						{DisplayName=Disk Rotation, Value=True}
+						{DisplayName=Actual Disk Speed, Value=6004}
+						{DisplayName=Disk Speed, Value=6000}
+						{DisplayName=Dichroic Mirror, Value=2}
+						{DisplayName=Image Splitter, Value=3}
+						{DisplayName=Filter Wheel →, Value=4}
+						{DisplayName=Filter Wheel ↑, Value=2}
+						{DisplayName=Camera Magnification →, Value=0}
+						{DisplayName=Camera Magnification ↑, Value=0}
+						{DisplayName=Camera Port, Value=1}
+						{DisplayName=TotalConsolidatedOpticalMagnification, Value=1.078}
+						{DisplayName=Magnification Correction, Value=1.078}
+						{DisplayName=Illumination Aperture, Value=0}
+						{DisplayName=Power Density, Value=0}
+						{DisplayName=3D Single Molecule, Value=False}
+						{DisplayName=TIRF Mode, Value=0}
+						{DisplayName=TIRF Wavelength Range, Value=488, 638}
+						{DisplayName=TIRF Penetration, Value=100}
+						{DisplayName=TIRF Critical Angle Adjust, Value=0}
+						{DisplayName=HILO Illumination Angle, Value=0.1}
+						{DisplayName=TIRF Mode Selector, Value=}
+						{DisplayName=Pinhole Size, Value=40}
+						{DisplayName=Number Of Scan Per Revolution, Value=4}
+						{DisplayName=Filter Wheel Mode, Value=0}
+						{DisplayName=Serial Number, Value=DFLY-0308}
+						{DisplayName=Product ID, Value=505}
+						{DisplayName=Firmware Version, Value=2.15}
+						{DisplayName=BTIRF Fine Adjust, Value=0}
+						{DisplayName=BTIRF 60 Magnification, Value=60}
+						{DisplayName=BTIRF 100 Magnification, Value=100}
+						{DisplayName=Laser Selector, Value=}
+						{DisplayName=Shutter Open, Value=True}
+						{DisplayName=Software Shuttering Mode, Value=0}
+						{DisplayName=Frame Event, Value=False}
+						{DisplayName=Coherence, Value=True}
+						{DisplayName=Laser Status 1, Value=Ready}
+						{DisplayName=Laser Status 2, Value=Ready}
+						{DisplayName=Laser Status 3, Value=Ready}
+						{DisplayName=Laser Status 4, Value=Ready}
+						{DisplayName=Laser Status 5, Value=Ready}
+						{DisplayName=Laser Type 1, Value=Laser type placeholder}
+						{DisplayName=Laser Type 2, Value=Laser type placeholder}
+						{DisplayName=Laser Type 3, Value=Laser type placeholder}
+						{DisplayName=Laser Type 4, Value=Laser type placeholder}
+						{DisplayName=Laser Type 5, Value=Laser type placeholder}
+						{DisplayName=Laser Composite 1, Value=}
+						{DisplayName=Laser Composite 2, Value=}
+						{DisplayName=Laser Composite 3, Value=}
+						{DisplayName=Laser Composite 4, Value=}
+						{DisplayName=Laser Composite 5, Value=}
+						{DisplayName=Laser Colour 2, Value=#FF6300FF}
+						{DisplayName=Laser Wavelength 2, Value=405}
+						{DisplayName=Laser Max Power 2, Value=100}
+						{DisplayName=Laser Shutter Delay, Value=0 ms}
+						{DisplayName=Laser Shutter Type 2, Value=ElectronicGating}
+						{DisplayName=Laser Colour 3, Value=#FF00F5FF}
+						{DisplayName=Laser Wavelength 3, Value=488}
+						{DisplayName=Laser Max Power 3, Value=100}
+						{DisplayName=Laser Shutter Delay, Value=0 ms}
+						{DisplayName=Laser Shutter Type 3, Value=ElectronicGating}
+						{DisplayName=Laser Colour 1, Value=#FFBAFF00}
+						{DisplayName=Laser Wavelength 1, Value=561}
+						{DisplayName=Laser Max Power 1, Value=0}
+						{DisplayName=Laser Shutter Delay, Value=80 ms}
+						{DisplayName=Laser Shutter Type 1, Value=MechanicalShutter}
+						{DisplayName=Laser Colour 4, Value=#FFFF1B00}
+						{DisplayName=Laser Wavelength 4, Value=638}
+						{DisplayName=Laser Max Power 4, Value=100}
+						{DisplayName=Laser Shutter Delay, Value=0 ms}
+						{DisplayName=Laser Shutter Type 4, Value=ElectronicGating}
+						{DisplayName=Laser Colour 5, Value=#FFFF0000}
+						{DisplayName=Laser Wavelength 5, Value=735}
+						{DisplayName=Laser Max Power 5, Value=100}
+						{DisplayName=Laser Shutter Delay, Value=0 ms}
+						{DisplayName=Laser Shutter Type 5, Value=ElectronicGating}
+						{DisplayName=Maximum Power, Value=250}
+						{DisplayName=Output Power, Value=10}
+						{DisplayName=Power Status, Value=0}
+						{DisplayName=Clears interlock, Value=False}
+						{DisplayName=Minimum Laser Excitation Wavelength, Value=638}
+						{DisplayName=Active Blanking, Value=True}
+						{DisplayName=Firmware Version, Value=1.38.2}
+						{DisplayName=Magnification Correction, Value=1.0}
+						{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 1 name [Port →]> devname [Andor Dragonfly (COM5)]}
+						{DisplayName=Frame Rate, Value=0}
+						{DisplayName=Pixel Width (µm), Value=6.5}
+						{DisplayName=Pixel Height (µm), Value=6.5}
+						{DisplayName=Sensor Width, Value=2048}
+						{DisplayName=Sensor Height, Value=2046}
+						{DisplayName=Binning X, Value=3}
+						{DisplayName=Binning Y, Value=3}
+						{DisplayName=Frame Averaging, Value=1}
+						{DisplayName=HF Boost, Value=False}
+						{DisplayName=HF Boost Filter Width, Value=1.0}
+						{DisplayName=HF Boost Weighting, Value=0.6}
+						{DisplayName=Sync Exposure Time, Value=False}
+						{DisplayName=Readout Time (ms), Value=22.9152 ms}
+						{DisplayName=Detector Temperature, Value=0.1220703125}
+						{DisplayName=Device Frame Rate, Value=20.856275236093}
+						{DisplayName=Frame Count, Value=1}
+						{DisplayName=Image Size Bytes, Value=697728}
+						{DisplayName=Sensor Cooling, Value=True}
+						{DisplayName=Spurious Noise Filter, Value=True}
+						{DisplayName=Metadata Enable, Value=True}
+						{DisplayName=Metadata Timestamp, Value=True}
+						{DisplayName=Simulated Global Shutter, Value=False}
+						{DisplayName=Auxiliary Output Source, Value=FireAll}
+						{DisplayName=Electronic Shuttering, Value=Rolling}
+						{DisplayName=Fan Mode, Value=Low}
+						{DisplayName=Pixel Readout Rate, Value=180MHz}
+						{DisplayName=Temperature Set Point, Value=0.0}
+						{DisplayName=Temperature Status, Value=1}
+						{DisplayName=Cycle Mode, Value=Continuous}
+						{DisplayName=Mapping Minimum Value, Value=90}
+						{DisplayName=Mapping Minimum Range, Value=90}
+						{DisplayName=End Of Exposure Enabled, Value=True}
+						{DisplayName=Advanced Acquisition Mode, Value=False}
+						{DisplayName=Rolling Shutter Global Clear, Value=True}
+						{DisplayName=Finite Burst Frame Rate, Value=18939.39394}
+						{DisplayName=Acquisition Mode, Value=High Quality}
+						{DisplayName=Camera Model, Value=Sona6}
+						{DisplayName=Is Full Sensor, Value=True}
+						{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+						{DisplayName=Frame Latency, Value=0.0479152 s}
+						{DisplayName=Frame Wait Time, Value=5.0479152 s}
+						{DisplayName=6 - 40x/1.15, Value=}
+						{DisplayName=LensNumericalAperture, Value=1.15}
+						{DisplayName=LensMagnification, Value=40}
+						{DisplayName=ImmersionType, Value=Water}
+						{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+						{DisplayName=Drift Stabilisation Hold Current Position, Value=False}
+						{DisplayName=Drift Stabilisation Hold Position, Value=6834}
+						{DisplayName=Drift Stabilisation Pulse Position, Value=6834}
+						{DisplayName=Device Trigger Mode, Value=Software}
+						{DisplayName=Trigger Mode, Value=0}
+						{DisplayName=External Trigger Timeout, Value=10 s}
+						{DisplayName=Device Trigger Mode, Value=Software}
+						{DisplayName=Trigger Mode, Value=0}
+						{DisplayName=External Trigger Timeout, Value=10 s}
+					IsOnDisk=True
+					IsValid=True
+				[Peripherals]
+					[Channel]
+						Wavelength=521 nm
+						AutoGenerateColour=False
+						AcquisitionDeviceAlias=Sona 02
+						ImagingMode={Name=CF40}
+						Name=Joerg 60x 488new_CF40_Sona02
+						Description=60x 1.2NA water objective
+						IsActive=False
+						IsReadOnly=False
+						[FeatureValueList]
+							{DisplayName=Rotation, Value=0˚}
+							{DisplayName=Rotation, Value=0˚}
+							{DisplayName=Flip Vertical, Value=False}
+							{DisplayName=Flip Vertical, Value=False}
+							{DisplayName=Flip Horizontal, Value=False}
+							{DisplayName=Flip Horizontal, Value=True}
+							{DisplayName=Exposure Time, Value=25 ms}
+							{DisplayName=Exposure Time, Value=100 ms}
+							{DisplayName=Scale Exposure with Binning, Value=True}
+							{DisplayName=Scale Exposure with Binning, Value=True}
+							{DisplayName=Binning, Value=3x3}
+							{DisplayName=Binning, Value=3x3}
+							{DisplayName=AOI Width, Value=2048}
+							{DisplayName=AOI Width, Value=2048}
+							{DisplayName=AOI Height, Value=2046}
+							{DisplayName=AOI Height, Value=2046}
+							{DisplayName=Data Width, Value=682}
+							{DisplayName=Data Width, Value=682}
+							{DisplayName=Data Height, Value=682}
+							{DisplayName=Data Height, Value=682}
+							{DisplayName=AOI Left, Value=1}
+							{DisplayName=AOI Left, Value=1}
+							{DisplayName=AOI Bottom, Value=1}
+							{DisplayName=AOI Bottom, Value=1}
+							{DisplayName=Confocal Mode, Value=0}
+							{DisplayName=Overlap, Value=False}
+							{DisplayName=Overlap, Value=False}
+							{DisplayName=Overlap, Value=False}
+							{DisplayName=Overlap, Value=False}
+							{DisplayName=Bit Depth, Value=16-bit (high dynamic range)}
+							{DisplayName=Bit Depth, Value=12-bit (low noise)}
+							{DisplayName=Output Port -  Unit 1, Value=1}
+							{DisplayName=Output Port, Value=1}
+							{DisplayName=Selected Laser Index, Value=-1}
+							{DisplayName=Low Power Mode, Value=False}
+							{DisplayName=Low Power Level, Value=×0.01}
+							{DisplayName=Laser Intensity 2, Value=2}
+							{DisplayName=Laser Intensity 3, Value=20}
+							{DisplayName=Laser Intensity 1, Value=2}
+							{DisplayName=Laser Intensity 4, Value=100}
+							{DisplayName=Laser Intensity 5, Value=2}
+							{DisplayName=Laser 2, Value=False}
+							{DisplayName=Laser 3, Value=True}
+							{DisplayName=Laser 1, Value=False}
+							{DisplayName=Laser 4, Value=False}
+							{DisplayName=Laser 5, Value=False}
+							{DisplayName=Brightfield Trigger, Value=False}
+							{DisplayName=Brightfield Trigger Mode, Value=0}
+							{DisplayName=Frame Event, Value=False}
+							{DisplayName=MicroPoint Trigger Line, Value=False}
+							{DisplayName=Spare Trigger Line, Value=False}
+							{DisplayName=Analogue Voltage, Value=0}
+							{DisplayName=Objective Escaped, Value=False}
+							{DisplayName=Port, Value=3}
+							{DisplayName=Select Objective Feature, Value=1 - 60x/1.2 - contains 4 items.}
+							{DisplayName=Drift Stabilisation Active, Value=False}
+							{DisplayName=Drift Stabilisation Status, Value=0}
+							{DisplayName=Drift Stabilisation Offset, Value=6834}
+							{DisplayName=Reference Z Resolution, Value=0.01}
+							{DisplayName=Ref Z, Value=7227.04}
+							{DisplayName=TotalConsolidatedOpticalMagnification, Value=60}
+							{DisplayName=ConsolidatedImmersionRefractiveIndex, Value=1.3333}
+							{DisplayName=ConsolidatedImmersionType, Value=Water}
+							{DisplayName=ConsolidatedLensNumericalAperture, Value=1.2}
+							{DisplayName=X, Value=-34.968000}
+							{DisplayName=Y, Value=20.674000}
+							{DisplayName=Velocity XY, Value=0, 0}
+							{DisplayName=Maximum Absolute X Position, Value=497.4784}
+							{DisplayName=Maximum Absolute Y Position, Value=505.8788}
+							{DisplayName=Minimum Absolute X Position, Value=-502.5215}
+							{DisplayName=Minimum Absolute Y Position, Value=-494.1212}
+							{DisplayName=Maximum Bounded X Position, Value=497.4784}
+							{DisplayName=Maximum Bounded Y Position, Value=507.6013}
+							{DisplayName=Minimum Bounded X Position, Value=-498.0501}
+							{DisplayName=Minimum Bounded Y Position, Value=-492.3987}
+							{DisplayName=XY Bounded, Value=False}
+							{DisplayName=IsTopLeftBoundSet, Value=False}
+							{DisplayName=IsBottomRightBoundSet, Value=False}
+							{DisplayName=Wait Until Movement Stopped, Value=True}
+							{DisplayName=Invert Software X Axis, Value=True}
+							{DisplayName=X Resolution, Value=0.01}
+							{DisplayName=Speed Limit X, Value=5.745920}
+							{DisplayName=Invert Software Y Axis, Value=True}
+							{DisplayName=Y Resolution, Value=0.01}
+							{DisplayName=Speed Limit Y, Value=5.745920}
+							{DisplayName=Settling Time, Value=15 ms}
+							{DisplayName=Z, Value=0.0}
+							{DisplayName=Invert Software Z Axis, Value=False}
+							{DisplayName=Z Resolution, Value=0.01}
+							{DisplayName=Speed Limit Z, Value=4958.000000}
+							{DisplayName=Velocity Z, Value=0.000000}
+							{DisplayName=Baud Rate, Value=9600}
+							{DisplayName=2 - 20x/0.75, Value=}
+							{DisplayName=LensNumericalAperture, Value=0.75}
+							{DisplayName=LensMagnification, Value=20}
+							{DisplayName=ImmersionType, Value=Dry}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.0003}
+							{DisplayName=3 - 40x/1.3, Value=}
+							{DisplayName=LensNumericalAperture, Value=1.3}
+							{DisplayName=LensMagnification, Value=40}
+							{DisplayName=ImmersionType, Value=Oil}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+							{DisplayName=4 - 60x/1.4, Value=}
+							{DisplayName=LensNumericalAperture, Value=1.4}
+							{DisplayName=LensMagnification, Value=60}
+							{DisplayName=ImmersionType, Value=Oil}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+							{DisplayName=5 - 60x/1.49, Value=}
+							{DisplayName=LensNumericalAperture, Value=1.49}
+							{DisplayName=LensMagnification, Value=60}
+							{DisplayName=ImmersionType, Value=Oil}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+							{DisplayName=Filter Turret 1, Value=5}
+							{DisplayName=Z Drive Mode, Value=1}
+							{DisplayName=Analogue Control, Value=False}
+							{DisplayName=Magnification Correction, Value=1.0}
+							{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 2 name [Port ↑]> devname [Andor Dragonfly (COM5)]}
+							{DisplayName=Sync Exposure Time, Value=False}
+							{DisplayName=Frame Rate, Value=0}
+							{DisplayName=Pixel Width (µm), Value=6.5}
+							{DisplayName=Pixel Height (µm), Value=6.5}
+							{DisplayName=Sensor Width, Value=2048}
+							{DisplayName=Sensor Height, Value=2046}
+							{DisplayName=Binning X, Value=3}
+							{DisplayName=Binning Y, Value=3}
+							{DisplayName=Frame Averaging, Value=1}
+							{DisplayName=HF Boost, Value=False}
+							{DisplayName=HF Boost Filter Width, Value=1.0}
+							{DisplayName=HF Boost Weighting, Value=0.6}
+							{DisplayName=Readout Time (ms), Value=13.503600000000001 ms}
+							{DisplayName=Detector Temperature, Value=-0.030517578125}
+							{DisplayName=Device Frame Rate, Value=25.9577096993578}
+							{DisplayName=Frame Count, Value=1}
+							{DisplayName=Image Size Bytes, Value=930288}
+							{DisplayName=Sensor Cooling, Value=True}
+							{DisplayName=Spurious Noise Filter, Value=True}
+							{DisplayName=Metadata Enable, Value=True}
+							{DisplayName=Metadata Timestamp, Value=True}
+							{DisplayName=Auxiliary Output Source, Value=FireAll}
+							{DisplayName=Electronic Shuttering, Value=Rolling}
+							{DisplayName=Fan Mode, Value=Low}
+							{DisplayName=Pixel Readout Rate, Value=310MHz}
+							{DisplayName=Temperature Set Point, Value=0.0}
+							{DisplayName=Temperature Status, Value=1}
+							{DisplayName=Cycle Mode, Value=Continuous}
+							{DisplayName=Mapping Minimum Value, Value=90}
+							{DisplayName=Mapping Minimum Range, Value=90}
+							{DisplayName=End Of Exposure Enabled, Value=True}
+							{DisplayName=Advanced Acquisition Mode, Value=False}
+							{DisplayName=Finite Burst Frame Rate, Value=2777.77778}
+							{DisplayName=Acquisition Mode, Value=High Quality}
+							{DisplayName=Camera Model, Value=Sona6}
+							{DisplayName=Is Full Sensor, Value=True}
+							{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+							{DisplayName=Frame Latency, Value=0.038503600000000001 s}
+							{DisplayName=Frame Wait Time, Value=5.038503600000000001 s}
+							{DisplayName=Simulated Global Shutter, Value=False}
+							{DisplayName=1 - 60x/1.2, Value=}
+							{DisplayName=LensNumericalAperture, Value=1.2}
+							{DisplayName=LensMagnification, Value=60}
+							{DisplayName=ImmersionType, Value=Water}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+							{DisplayName=Rolling Shutter Global Clear, Value=True}
+							{DisplayName=Is Sample Holder XY Bounded, Value=False}
+							{DisplayName=Sample Holder Maximum Absolute X Position, Value=497.4784}
+							{DisplayName=Sample Holder Maximum Absolute Y Position, Value=505.8788}
+							{DisplayName=Sample Holder Minimum Absolute X Position, Value=-502.5215}
+							{DisplayName=Sample Holder Minimum Absolute Y Position, Value=-494.1212}
+							{DisplayName=Sample Holder Maximum Bounded X Position, Value=475.1884}
+							{DisplayName=Sample Holder Maximum Bounded Y Position, Value=492.2293}
+							{DisplayName=Sample Holder Minimum Bounded X Position, Value=-479.2167}
+							{DisplayName=Sample Holder Minimum Bounded Y Position, Value=-490.0094}
+							{DisplayName=Disk Rotation, Value=True}
+							{DisplayName=Actual Disk Speed, Value=6004}
+							{DisplayName=Disk Speed, Value=6000}
+							{DisplayName=Dichroic Mirror, Value=2}
+							{DisplayName=Image Splitter, Value=3}
+							{DisplayName=Filter Wheel →, Value=4}
+							{DisplayName=Filter Wheel ↑, Value=2}
+							{DisplayName=Camera Magnification →, Value=0}
+							{DisplayName=Camera Magnification ↑, Value=0}
+							{DisplayName=Camera Port, Value=1}
+							{DisplayName=TotalConsolidatedOpticalMagnification, Value=1.078}
+							{DisplayName=Magnification Correction, Value=1.078}
+							{DisplayName=Illumination Aperture, Value=0}
+							{DisplayName=Power Density, Value=0}
+							{DisplayName=3D Single Molecule, Value=False}
+							{DisplayName=TIRF Mode, Value=0}
+							{DisplayName=TIRF Wavelength Range, Value=488, 638}
+							{DisplayName=TIRF Penetration, Value=100}
+							{DisplayName=TIRF Critical Angle Adjust, Value=0}
+							{DisplayName=HILO Illumination Angle, Value=0.1}
+							{DisplayName=TIRF Mode Selector, Value=}
+							{DisplayName=Pinhole Size, Value=40}
+							{DisplayName=Number Of Scan Per Revolution, Value=4}
+							{DisplayName=Filter Wheel Mode, Value=0}
+							{DisplayName=Serial Number, Value=DFLY-0308}
+							{DisplayName=Product ID, Value=505}
+							{DisplayName=Firmware Version, Value=2.15}
+							{DisplayName=BTIRF Fine Adjust, Value=0}
+							{DisplayName=BTIRF 60 Magnification, Value=60}
+							{DisplayName=BTIRF 100 Magnification, Value=100}
+							{DisplayName=Laser Selector, Value=}
+							{DisplayName=Shutter Open, Value=False}
+							{DisplayName=Software Shuttering Mode, Value=0}
+							{DisplayName=Frame Event, Value=False}
+							{DisplayName=Coherence, Value=True}
+							{DisplayName=Laser Status 1, Value=Ready}
+							{DisplayName=Laser Status 2, Value=Ready}
+							{DisplayName=Laser Status 3, Value=Ready}
+							{DisplayName=Laser Status 4, Value=Ready}
+							{DisplayName=Laser Status 5, Value=Ready}
+							{DisplayName=Laser Type 1, Value=Laser type placeholder}
+							{DisplayName=Laser Type 2, Value=Laser type placeholder}
+							{DisplayName=Laser Type 3, Value=Laser type placeholder}
+							{DisplayName=Laser Type 4, Value=Laser type placeholder}
+							{DisplayName=Laser Type 5, Value=Laser type placeholder}
+							{DisplayName=Laser Composite 1, Value=}
+							{DisplayName=Laser Composite 2, Value=}
+							{DisplayName=Laser Composite 3, Value=}
+							{DisplayName=Laser Composite 4, Value=}
+							{DisplayName=Laser Composite 5, Value=}
+							{DisplayName=Laser Colour 2, Value=#FF6300FF}
+							{DisplayName=Laser Wavelength 2, Value=405}
+							{DisplayName=Laser Max Power 2, Value=100}
+							{DisplayName=Laser Shutter Delay, Value=0 ms}
+							{DisplayName=Laser Shutter Type 2, Value=ElectronicGating}
+							{DisplayName=Laser Colour 3, Value=#FF00F5FF}
+							{DisplayName=Laser Wavelength 3, Value=488}
+							{DisplayName=Laser Max Power 3, Value=100}
+							{DisplayName=Laser Shutter Delay, Value=0 ms}
+							{DisplayName=Laser Shutter Type 3, Value=ElectronicGating}
+							{DisplayName=Laser Colour 1, Value=#FFBAFF00}
+							{DisplayName=Laser Wavelength 1, Value=561}
+							{DisplayName=Laser Max Power 1, Value=0}
+							{DisplayName=Laser Shutter Delay, Value=80 ms}
+							{DisplayName=Laser Shutter Type 1, Value=MechanicalShutter}
+							{DisplayName=Laser Colour 4, Value=#FFFF1B00}
+							{DisplayName=Laser Wavelength 4, Value=638}
+							{DisplayName=Laser Max Power 4, Value=100}
+							{DisplayName=Laser Shutter Delay, Value=0 ms}
+							{DisplayName=Laser Shutter Type 4, Value=ElectronicGating}
+							{DisplayName=Laser Colour 5, Value=#FFFF0000}
+							{DisplayName=Laser Wavelength 5, Value=735}
+							{DisplayName=Laser Max Power 5, Value=100}
+							{DisplayName=Laser Shutter Delay, Value=0 ms}
+							{DisplayName=Laser Shutter Type 5, Value=ElectronicGating}
+							{DisplayName=Maximum Power, Value=250}
+							{DisplayName=Output Power, Value=10}
+							{DisplayName=Power Status, Value=0}
+							{DisplayName=Clears interlock, Value=False}
+							{DisplayName=Minimum Laser Excitation Wavelength, Value=488}
+							{DisplayName=Active Blanking, Value=True}
+							{DisplayName=Firmware Version, Value=1.38.2}
+							{DisplayName=Magnification Correction, Value=1.0}
+							{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 1 name [Port →]> devname [Andor Dragonfly (COM5)]}
+							{DisplayName=Frame Rate, Value=0}
+							{DisplayName=Pixel Width (µm), Value=6.5}
+							{DisplayName=Pixel Height (µm), Value=6.5}
+							{DisplayName=Sensor Width, Value=2048}
+							{DisplayName=Sensor Height, Value=2046}
+							{DisplayName=Binning X, Value=3}
+							{DisplayName=Binning Y, Value=3}
+							{DisplayName=Frame Averaging, Value=1}
+							{DisplayName=HF Boost, Value=False}
+							{DisplayName=HF Boost Filter Width, Value=1.0}
+							{DisplayName=HF Boost Weighting, Value=0.6}
+							{DisplayName=Sync Exposure Time, Value=False}
+							{DisplayName=Readout Time (ms), Value=22.9152 ms}
+							{DisplayName=Detector Temperature, Value=0.1220703125}
+							{DisplayName=Device Frame Rate, Value=20.856275236093}
+							{DisplayName=Frame Count, Value=1}
+							{DisplayName=Image Size Bytes, Value=697728}
+							{DisplayName=Sensor Cooling, Value=True}
+							{DisplayName=Spurious Noise Filter, Value=True}
+							{DisplayName=Metadata Enable, Value=True}
+							{DisplayName=Metadata Timestamp, Value=True}
+							{DisplayName=Simulated Global Shutter, Value=False}
+							{DisplayName=Auxiliary Output Source, Value=FireAll}
+							{DisplayName=Electronic Shuttering, Value=Rolling}
+							{DisplayName=Fan Mode, Value=Low}
+							{DisplayName=Pixel Readout Rate, Value=180MHz}
+							{DisplayName=Temperature Set Point, Value=0.0}
+							{DisplayName=Temperature Status, Value=1}
+							{DisplayName=Cycle Mode, Value=Continuous}
+							{DisplayName=Mapping Minimum Value, Value=90}
+							{DisplayName=Mapping Minimum Range, Value=90}
+							{DisplayName=End Of Exposure Enabled, Value=True}
+							{DisplayName=Advanced Acquisition Mode, Value=False}
+							{DisplayName=Rolling Shutter Global Clear, Value=True}
+							{DisplayName=Finite Burst Frame Rate, Value=18939.39394}
+							{DisplayName=Acquisition Mode, Value=High Quality}
+							{DisplayName=Camera Model, Value=Sona6}
+							{DisplayName=Is Full Sensor, Value=True}
+							{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+							{DisplayName=Frame Latency, Value=0.1 s}
+							{DisplayName=Frame Wait Time, Value=5.0479152 s}
+							{DisplayName=6 - 40x/1.15, Value=}
+							{DisplayName=LensNumericalAperture, Value=1.15}
+							{DisplayName=LensMagnification, Value=40}
+							{DisplayName=ImmersionType, Value=Water}
+							{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+							{DisplayName=Drift Stabilisation Hold Current Position, Value=False}
+							{DisplayName=Drift Stabilisation Hold Position, Value=6834}
+							{DisplayName=Drift Stabilisation Pulse Position, Value=6834}
+							{DisplayName=Device Trigger Mode, Value=Software}
+							{DisplayName=Trigger Mode, Value=0}
+							{DisplayName=External Trigger Timeout, Value=10 s}
+							{DisplayName=Device Trigger Mode, Value=Software}
+							{DisplayName=Trigger Mode, Value=0}
+							{DisplayName=External Trigger Timeout, Value=10 s}
+						IsOnDisk=True
+						IsValid=True
+		IsValid=True
+	[TriggeringProtocolSpecification]
+		IsViewExpanded=True
+		IsValid=True
+	[SampleHolderProtocolSpecification]
+		IsValid=True
+		LockOuterWells=False
+		IsUsingIncubator=False
+[Imaging Modes In Protocol]
+	[ImagingMode]
+		Modality=SpinningDiskConfocal
+		IsConfigurable=True
+		IsChannelAssignable=True
+		Name=CF40
+		Description=Confocal 40um
+		IsActive=True
+		IsReadOnly=True
+		[FeatureValueList]
+			{DisplayName=Rotation, Value=0˚}
+			{DisplayName=Rotation, Value=0˚}
+			{DisplayName=Flip Vertical, Value=False}
+			{DisplayName=Flip Vertical, Value=False}
+			{DisplayName=Flip Horizontal, Value=False}
+			{DisplayName=Flip Horizontal, Value=True}
+			{DisplayName=Exposure Time, Value=25 ms}
+			{DisplayName=Exposure Time, Value=25 ms}
+			{DisplayName=Scale Exposure with Binning, Value=True}
+			{DisplayName=Scale Exposure with Binning, Value=True}
+			{DisplayName=Binning, Value=3x3}
+			{DisplayName=Binning, Value=3x3}
+			{DisplayName=AOI Width, Value=2048}
+			{DisplayName=AOI Width, Value=2048}
+			{DisplayName=AOI Height, Value=2046}
+			{DisplayName=AOI Height, Value=2046}
+			{DisplayName=Data Width, Value=682}
+			{DisplayName=Data Width, Value=682}
+			{DisplayName=Data Height, Value=682}
+			{DisplayName=Data Height, Value=682}
+			{DisplayName=AOI Left, Value=1}
+			{DisplayName=AOI Left, Value=1}
+			{DisplayName=AOI Bottom, Value=1}
+			{DisplayName=AOI Bottom, Value=1}
+			{DisplayName=Overlap, Value=False}
+			{DisplayName=Overlap, Value=False}
+			{DisplayName=Overlap, Value=False}
+			{DisplayName=Overlap, Value=False}
+			{DisplayName=Bit Depth, Value=16-bit (high dynamic range)}
+			{DisplayName=Bit Depth, Value=12-bit (low noise)}
+			{DisplayName=Confocal Mode, Value=0}
+			{DisplayName=Output Port -  Unit 1, Value=1}
+			{DisplayName=Output Port, Value=1}
+			{DisplayName=Selected Laser Index, Value=-1}
+			{DisplayName=Low Power Mode, Value=False}
+			{DisplayName=Low Power Level, Value=×0.01}
+			{DisplayName=Laser Intensity 2, Value=2}
+			{DisplayName=Laser Intensity 3, Value=2}
+			{DisplayName=Laser Intensity 1, Value=2}
+			{DisplayName=Laser Intensity 4, Value=10}
+			{DisplayName=Laser Intensity 5, Value=2}
+			{DisplayName=Laser 2, Value=False}
+			{DisplayName=Laser 3, Value=False}
+			{DisplayName=Laser 1, Value=False}
+			{DisplayName=Laser 4, Value=True}
+			{DisplayName=Laser 5, Value=False}
+			{DisplayName=Brightfield Trigger, Value=False}
+			{DisplayName=Brightfield Trigger Mode, Value=0}
+			{DisplayName=Frame Event, Value=False}
+			{DisplayName=MicroPoint Trigger Line, Value=False}
+			{DisplayName=Spare Trigger Line, Value=False}
+			{DisplayName=Analogue Voltage, Value=0}
+			{DisplayName=Objective Escaped, Value=False}
+			{DisplayName=Port, Value=3}
+			{DisplayName=Select Objective Feature, Value=1 - 60x/1.2 - contains 4 items.}
+			{DisplayName=Drift Stabilisation Active, Value=False}
+			{DisplayName=Drift Stabilisation Status, Value=0}
+			{DisplayName=Drift Stabilisation Offset, Value=6834}
+			{DisplayName=Reference Z Resolution, Value=0.01}
+			{DisplayName=Ref Z, Value=7227.04}
+			{DisplayName=TotalConsolidatedOpticalMagnification, Value=60}
+			{DisplayName=ConsolidatedImmersionRefractiveIndex, Value=1.3333}
+			{DisplayName=ConsolidatedImmersionType, Value=Water}
+			{DisplayName=ConsolidatedLensNumericalAperture, Value=1.2}
+			{DisplayName=X, Value=-34.968000}
+			{DisplayName=Y, Value=20.674000}
+			{DisplayName=Velocity XY, Value=0, 0}
+			{DisplayName=Maximum Absolute X Position, Value=497.4784}
+			{DisplayName=Maximum Absolute Y Position, Value=505.8788}
+			{DisplayName=Minimum Absolute X Position, Value=-502.5215}
+			{DisplayName=Minimum Absolute Y Position, Value=-494.1212}
+			{DisplayName=Maximum Bounded X Position, Value=497.4784}
+			{DisplayName=Maximum Bounded Y Position, Value=507.6013}
+			{DisplayName=Minimum Bounded X Position, Value=-498.0501}
+			{DisplayName=Minimum Bounded Y Position, Value=-492.3987}
+			{DisplayName=XY Bounded, Value=False}
+			{DisplayName=IsTopLeftBoundSet, Value=False}
+			{DisplayName=IsBottomRightBoundSet, Value=False}
+			{DisplayName=Wait Until Movement Stopped, Value=True}
+			{DisplayName=Invert Software X Axis, Value=True}
+			{DisplayName=X Resolution, Value=0.01}
+			{DisplayName=Speed Limit X, Value=5.745920}
+			{DisplayName=Invert Software Y Axis, Value=True}
+			{DisplayName=Y Resolution, Value=0.01}
+			{DisplayName=Speed Limit Y, Value=5.745920}
+			{DisplayName=Settling Time, Value=15 ms}
+			{DisplayName=Z, Value=0.0}
+			{DisplayName=Invert Software Z Axis, Value=False}
+			{DisplayName=Z Resolution, Value=0.01}
+			{DisplayName=Speed Limit Z, Value=4958.000000}
+			{DisplayName=Velocity Z, Value=0.000000}
+			{DisplayName=Baud Rate, Value=9600}
+			{DisplayName=2 - 20x/0.75, Value=}
+			{DisplayName=LensNumericalAperture, Value=0.75}
+			{DisplayName=LensMagnification, Value=20}
+			{DisplayName=ImmersionType, Value=Dry}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.0003}
+			{DisplayName=3 - 40x/1.3, Value=}
+			{DisplayName=LensNumericalAperture, Value=1.3}
+			{DisplayName=LensMagnification, Value=40}
+			{DisplayName=ImmersionType, Value=Oil}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+			{DisplayName=4 - 60x/1.4, Value=}
+			{DisplayName=LensNumericalAperture, Value=1.4}
+			{DisplayName=LensMagnification, Value=60}
+			{DisplayName=ImmersionType, Value=Oil}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+			{DisplayName=5 - 60x/1.49, Value=}
+			{DisplayName=LensNumericalAperture, Value=1.49}
+			{DisplayName=LensMagnification, Value=60}
+			{DisplayName=ImmersionType, Value=Oil}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.518}
+			{DisplayName=Filter Turret 1, Value=5}
+			{DisplayName=Z Drive Mode, Value=1}
+			{DisplayName=Analogue Control, Value=False}
+			{DisplayName=Magnification Correction, Value=1.0}
+			{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 2 name [Port ↑]> devname [Andor Dragonfly (COM5)]}
+			{DisplayName=Sync Exposure Time, Value=False}
+			{DisplayName=Frame Rate, Value=0}
+			{DisplayName=Pixel Width (µm), Value=6.5}
+			{DisplayName=Pixel Height (µm), Value=6.5}
+			{DisplayName=Sensor Width, Value=2048}
+			{DisplayName=Sensor Height, Value=2046}
+			{DisplayName=Binning X, Value=3}
+			{DisplayName=Binning Y, Value=3}
+			{DisplayName=Frame Averaging, Value=1}
+			{DisplayName=HF Boost, Value=False}
+			{DisplayName=HF Boost Filter Width, Value=1.0}
+			{DisplayName=HF Boost Weighting, Value=0.6}
+			{DisplayName=Readout Time (ms), Value=13.503600000000001 ms}
+			{DisplayName=Detector Temperature, Value=-0.030517578125}
+			{DisplayName=Device Frame Rate, Value=25.9577096993578}
+			{DisplayName=Frame Count, Value=1}
+			{DisplayName=Image Size Bytes, Value=930288}
+			{DisplayName=Sensor Cooling, Value=True}
+			{DisplayName=Spurious Noise Filter, Value=True}
+			{DisplayName=Metadata Enable, Value=True}
+			{DisplayName=Metadata Timestamp, Value=True}
+			{DisplayName=Simulated Global Shutter, Value=False}
+			{DisplayName=Auxiliary Output Source, Value=FireAll}
+			{DisplayName=Electronic Shuttering, Value=Rolling}
+			{DisplayName=Fan Mode, Value=Low}
+			{DisplayName=Pixel Readout Rate, Value=310MHz}
+			{DisplayName=Temperature Set Point, Value=0.0}
+			{DisplayName=Temperature Status, Value=1}
+			{DisplayName=Cycle Mode, Value=Continuous}
+			{DisplayName=Mapping Minimum Value, Value=90}
+			{DisplayName=Mapping Minimum Range, Value=90}
+			{DisplayName=End Of Exposure Enabled, Value=True}
+			{DisplayName=Advanced Acquisition Mode, Value=False}
+			{DisplayName=Finite Burst Frame Rate, Value=2777.77778}
+			{DisplayName=Acquisition Mode, Value=High Quality}
+			{DisplayName=Camera Model, Value=Sona6}
+			{DisplayName=Is Full Sensor, Value=True}
+			{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+			{DisplayName=Frame Latency, Value=0.038503600000000001 s}
+			{DisplayName=Frame Wait Time, Value=5.038503600000000001 s}
+			{DisplayName=Rolling Shutter Global Clear, Value=True}
+			{DisplayName=Disk Rotation, Value=True}
+			{DisplayName=Actual Disk Speed, Value=5994}
+			{DisplayName=Disk Speed, Value=6000}
+			{DisplayName=Dichroic Mirror, Value=2}
+			{DisplayName=Image Splitter, Value=3}
+			{DisplayName=Filter Wheel →, Value=4}
+			{DisplayName=Filter Wheel ↑, Value=2}
+			{DisplayName=Camera Magnification →, Value=0}
+			{DisplayName=Camera Magnification ↑, Value=0}
+			{DisplayName=Camera Port, Value=1}
+			{DisplayName=TotalConsolidatedOpticalMagnification, Value=1.078}
+			{DisplayName=Magnification Correction, Value=1.078}
+			{DisplayName=Illumination Aperture, Value=0}
+			{DisplayName=Power Density, Value=0}
+			{DisplayName=3D Single Molecule, Value=False}
+			{DisplayName=TIRF Mode, Value=0}
+			{DisplayName=TIRF Wavelength Range, Value=488, 638}
+			{DisplayName=TIRF Penetration, Value=100}
+			{DisplayName=TIRF Critical Angle Adjust, Value=0}
+			{DisplayName=HILO Illumination Angle, Value=0.1}
+			{DisplayName=TIRF Mode Selector, Value=}
+			{DisplayName=Pinhole Size, Value=40}
+			{DisplayName=Number Of Scan Per Revolution, Value=4}
+			{DisplayName=Filter Wheel Mode, Value=0}
+			{DisplayName=Serial Number, Value=DFLY-0308}
+			{DisplayName=Product ID, Value=505}
+			{DisplayName=Firmware Version, Value=2.15}
+			{DisplayName=Is Sample Holder XY Bounded, Value=False}
+			{DisplayName=Sample Holder Maximum Absolute X Position, Value=497.4784}
+			{DisplayName=Sample Holder Maximum Absolute Y Position, Value=505.8788}
+			{DisplayName=Sample Holder Minimum Absolute X Position, Value=-502.5215}
+			{DisplayName=Sample Holder Minimum Absolute Y Position, Value=-494.1212}
+			{DisplayName=Sample Holder Maximum Bounded X Position, Value=475.1884}
+			{DisplayName=Sample Holder Maximum Bounded Y Position, Value=492.2293}
+			{DisplayName=Sample Holder Minimum Bounded X Position, Value=-479.2167}
+			{DisplayName=Sample Holder Minimum Bounded Y Position, Value=-490.0094}
+			{DisplayName=BTIRF Fine Adjust, Value=0}
+			{DisplayName=BTIRF 60 Magnification, Value=60}
+			{DisplayName=BTIRF 100 Magnification, Value=100}
+			{DisplayName=1 - 60x/1.2, Value=}
+			{DisplayName=LensNumericalAperture, Value=1.2}
+			{DisplayName=LensMagnification, Value=60}
+			{DisplayName=ImmersionType, Value=Water}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+			{DisplayName=Laser Selector, Value=}
+			{DisplayName=Shutter Open, Value=False}
+			{DisplayName=Software Shuttering Mode, Value=0}
+			{DisplayName=Frame Event, Value=False}
+			{DisplayName=Coherence, Value=True}
+			{DisplayName=Laser Status 1, Value=Ready}
+			{DisplayName=Laser Status 2, Value=Ready}
+			{DisplayName=Laser Status 3, Value=Ready}
+			{DisplayName=Laser Status 4, Value=Ready}
+			{DisplayName=Laser Status 5, Value=Ready}
+			{DisplayName=Laser Type 1, Value=Laser type placeholder}
+			{DisplayName=Laser Type 2, Value=Laser type placeholder}
+			{DisplayName=Laser Type 3, Value=Laser type placeholder}
+			{DisplayName=Laser Type 4, Value=Laser type placeholder}
+			{DisplayName=Laser Type 5, Value=Laser type placeholder}
+			{DisplayName=Laser Composite 1, Value=}
+			{DisplayName=Laser Composite 2, Value=}
+			{DisplayName=Laser Composite 3, Value=}
+			{DisplayName=Laser Composite 4, Value=}
+			{DisplayName=Laser Composite 5, Value=}
+			{DisplayName=Laser Colour 2, Value=#FF6300FF}
+			{DisplayName=Laser Wavelength 2, Value=405}
+			{DisplayName=Laser Max Power 2, Value=100}
+			{DisplayName=Laser Shutter Delay, Value=0 ms}
+			{DisplayName=Laser Shutter Type 2, Value=ElectronicGating}
+			{DisplayName=Laser Colour 3, Value=#FF00F5FF}
+			{DisplayName=Laser Wavelength 3, Value=488}
+			{DisplayName=Laser Max Power 3, Value=100}
+			{DisplayName=Laser Shutter Delay, Value=0 ms}
+			{DisplayName=Laser Shutter Type 3, Value=ElectronicGating}
+			{DisplayName=Laser Colour 1, Value=#FFBAFF00}
+			{DisplayName=Laser Wavelength 1, Value=561}
+			{DisplayName=Laser Max Power 1, Value=0}
+			{DisplayName=Laser Shutter Delay, Value=80 ms}
+			{DisplayName=Laser Shutter Type 1, Value=MechanicalShutter}
+			{DisplayName=Laser Colour 4, Value=#FFFF1B00}
+			{DisplayName=Laser Wavelength 4, Value=638}
+			{DisplayName=Laser Max Power 4, Value=100}
+			{DisplayName=Laser Shutter Delay, Value=0 ms}
+			{DisplayName=Laser Shutter Type 4, Value=ElectronicGating}
+			{DisplayName=Laser Colour 5, Value=#FFFF0000}
+			{DisplayName=Laser Wavelength 5, Value=735}
+			{DisplayName=Laser Max Power 5, Value=100}
+			{DisplayName=Laser Shutter Delay, Value=0 ms}
+			{DisplayName=Laser Shutter Type 5, Value=ElectronicGating}
+			{DisplayName=Maximum Power, Value=250}
+			{DisplayName=Output Power, Value=10}
+			{DisplayName=Power Status, Value=0}
+			{DisplayName=Clears interlock, Value=False}
+			{DisplayName=Minimum Laser Excitation Wavelength, Value=638}
+			{DisplayName=Active Blanking, Value=True}
+			{DisplayName=Firmware Version, Value=1.38.2}
+			{DisplayName=Magnification Correction, Value=1.0}
+			{DisplayName=Camera Port, Value=id <dev <d61cfc00-5c3e-4647-b095-a524649c4450 - 863de6da-532c-48ae-acfb-f75ebf242a31> port 1 name [Port →]> devname [Andor Dragonfly (COM5)]}
+			{DisplayName=Frame Rate, Value=0}
+			{DisplayName=Pixel Width (µm), Value=6.5}
+			{DisplayName=Pixel Height (µm), Value=6.5}
+			{DisplayName=Sensor Width, Value=2048}
+			{DisplayName=Sensor Height, Value=2046}
+			{DisplayName=Binning X, Value=3}
+			{DisplayName=Binning Y, Value=3}
+			{DisplayName=Frame Averaging, Value=1}
+			{DisplayName=HF Boost, Value=False}
+			{DisplayName=HF Boost Filter Width, Value=1.0}
+			{DisplayName=HF Boost Weighting, Value=0.6}
+			{DisplayName=Sync Exposure Time, Value=False}
+			{DisplayName=Readout Time (ms), Value=22.9152 ms}
+			{DisplayName=Detector Temperature, Value=0.1220703125}
+			{DisplayName=Device Frame Rate, Value=20.856275236093}
+			{DisplayName=Frame Count, Value=1}
+			{DisplayName=Image Size Bytes, Value=697728}
+			{DisplayName=Sensor Cooling, Value=True}
+			{DisplayName=Spurious Noise Filter, Value=True}
+			{DisplayName=Metadata Enable, Value=True}
+			{DisplayName=Metadata Timestamp, Value=True}
+			{DisplayName=Simulated Global Shutter, Value=False}
+			{DisplayName=Auxiliary Output Source, Value=FireAll}
+			{DisplayName=Electronic Shuttering, Value=Rolling}
+			{DisplayName=Fan Mode, Value=Low}
+			{DisplayName=Pixel Readout Rate, Value=180MHz}
+			{DisplayName=Temperature Set Point, Value=0.0}
+			{DisplayName=Temperature Status, Value=1}
+			{DisplayName=Cycle Mode, Value=Continuous}
+			{DisplayName=Mapping Minimum Value, Value=90}
+			{DisplayName=Mapping Minimum Range, Value=90}
+			{DisplayName=End Of Exposure Enabled, Value=True}
+			{DisplayName=Advanced Acquisition Mode, Value=False}
+			{DisplayName=Rolling Shutter Global Clear, Value=True}
+			{DisplayName=Finite Burst Frame Rate, Value=18939.39394}
+			{DisplayName=Acquisition Mode, Value=High Quality}
+			{DisplayName=Camera Model, Value=Sona6}
+			{DisplayName=Is Full Sensor, Value=True}
+			{DisplayName=Pre-defined AOI, Value=2048 x 2046}
+			{DisplayName=Frame Latency, Value=0.0479152 s}
+			{DisplayName=Frame Wait Time, Value=5.0479152 s}
+			{DisplayName=6 - 40x/1.15, Value=}
+			{DisplayName=LensNumericalAperture, Value=1.15}
+			{DisplayName=LensMagnification, Value=40}
+			{DisplayName=ImmersionType, Value=Water}
+			{DisplayName=ImmersionRefractiveIndex, Value=1.3333}
+			{DisplayName=Drift Stabilisation Hold Current Position, Value=False}
+			{DisplayName=Drift Stabilisation Hold Position, Value=6834}
+			{DisplayName=Drift Stabilisation Pulse Position, Value=6834}
+			{DisplayName=Device Trigger Mode, Value=Software}
+			{DisplayName=Trigger Mode, Value=0}
+			{DisplayName=External Trigger Timeout, Value=10 s}
+			{DisplayName=Device Trigger Mode, Value=Software}
+			{DisplayName=Trigger Mode, Value=0}
+			{DisplayName=External Trigger Timeout, Value=10 s}
+		IsOnDisk=True
+		IsValid=True
+[Protocol Options Sections]
+	[ProtocolDeconvolutionOptions]
+		Name=DeconvolutionOptions
+		Apply3DDeconvolution=False
+		ProcessOnlyDuringProtocolTimeIntervals=False
+		ProcessDuringProtocolTimeIntervalsOrFrameAcquisitions=True
+		IsValid=True
+	[ProtocolStitchingOptions]
+		StitchingMethod=PhaseCorrelation
+		Invert=False
+		BackgroundSubtraction=True
+		FilterWidth=0
+		UseSpecifiedMode=False
+		Name=StitchingOptions
+		ApplyStitching=False
+		StitchingMode=HighSpeed
+		ChannelIndex=0
+		IsValid=True
+	[ProtocolLoopOptions]
+		Name=LoopOptions
+		IsLoopContinuously=False
+		NumberOfLoops=1
+		ProtocolInterval=0 s
+		IsValid=True
+[Events]
