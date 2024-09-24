@@ -118,7 +118,7 @@ for k = 1:length(fileList)
     binningArray{end+1} = binning;
     sensorWidthArray(end+1) = sensorWidth;
     sensorHeightArray(end+1) = sensorHeight;
-    fileSizeGBArray(end+1) = fileSizeGB;
+    % fileSizeGBArray(end+1) = fileSizeGB;
 end
 
 % Create the final table
