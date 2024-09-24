@@ -102,11 +102,11 @@ for k = 1:length(fileList)
     sensorHeightTokens = regexp(metadata, sensorHeightPattern, 'tokens');
     sensorHeight = str2double(sensorHeightTokens{1}{1});
     
-    % Image Size Bytes (if available)
-    fileSizeExpr = 'Image Size Bytes, Value=(\d+)';
-    fileSizeTokens = regexp(metadata, fileSizeExpr, 'tokens');
-    fileSizeBytes = str2double(fileSizeTokens{1}{1});
-    fileSizeGB = fileSizeBytes / 1e9;  % Convert to GB
+    % % Image Size Bytes (if available)
+    % fileSizeExpr = 'Image Size Bytes, Value=(\d+)';
+    % fileSizeTokens = regexp(metadata, fileSizeExpr, 'tokens');
+    % fileSizeBytes = str2double(fileSizeTokens{1}{1});
+    % fileSizeGB = fileSizeBytes / 1e9;  % Convert to GB
 
     % Store extracted data
     dateArray{end+1} = date;
@@ -130,10 +130,10 @@ end
 %     'Sensor Width', 'Sensor Height', 'FileSizeGB'});
 T = table(dateArray', fileNameArray', objectiveArray', ...
     ZslicesArray', exposureCh1Array', exposureCh2Array', binningArray', ...
-    sensorWidthArray', sensorHeightArray', fileSizeGBArray', ...
+    sensorWidthArray', sensorHeightArray', ...
     'VariableNames', {'Date', 'File Name', 'Objective Info', ...
     'Z Slices', 'Ch1 Exposure', 'Ch2 Exposure', 'Binning', ...
-    'Sensor Width', 'Sensor Height', 'FileSizeGB'});
+    'Sensor Width', 'Sensor Height'});
 
 
 % Display the table
