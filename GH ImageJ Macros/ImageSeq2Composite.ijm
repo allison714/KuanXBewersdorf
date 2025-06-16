@@ -1,13 +1,15 @@
 // ─── Batch Merge by **3‑digit** Suffix (000–087) ───
+// MUST BE RGB Color, then saved as TIFF image sequences
+// Outputs as a png
 macro "Batch Merge by Suffix 000–087" {
     // 1) Ask for your folders and filename parts
-    dir1      = getDirectory("Choose GREY channel folder");   // e.g. …/InvertedPanStack/
+    dir1      = getDirectory("Choose GREY channel folder");   // e.g. …/InvertedPan/
     dir2      = getDirectory("Choose CYAN channel folder");   // e.g. …/PSD95 sigma xyz 25 px/
     outDir    = getDirectory("Choose OUTPUT folder");
     // ─── **** Change below to your files names **** ───
-    prefix1   = getString("GREY filename prefix (include trailing \"_\")", "InvertedPanStack_");
-    prefix2   = getString("CYAN filename prefix (include trailing \"_\")", "PSD95_cyan_");
-    outPrefix = getString("Output file prefix",               "CompositePSD95Cyan3DSigma25_");
+    prefix1   = getString("GREY filename prefix (include trailing \"_\")", "InvertedPan_");
+    prefix2   = getString("CYAN filename prefix (include trailing \"_\")", "Cyan_");
+    outPrefix = getString("Output file prefix",               "Composite_");
   
     mergedCount = 0;
     // 2) Loop 000 → 087
