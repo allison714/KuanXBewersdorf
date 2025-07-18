@@ -13,8 +13,8 @@ macro "Batch Merge by Suffix 000–087" {
   
     mergedCount = 0;
     // 2) Loop 000 → 087
-    // ─── ** Change to the number Z slices you have, e.g. 87 ** ───
-    for (i = 0; i <= 87; i++) {
+    // ||||||||| ─── ** Change to the number Z slices in for loop "i <= #Zslice"; ** ─── |||||||||||||||||||||||||||||||||||||
+    for (i = 0; i <= 154; i++) {
         // zero‑pad to 3 digits
         if (i < 10)      suf = "00" + i;
         else if (i < 100) suf = "0" + i;
